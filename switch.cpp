@@ -42,6 +42,24 @@ int main ()
                m=m+7;
                }
                break;
+          case 3:
+               while(suma<50 && prod<150)
+               {
+               printf("\nDame un entero: ");
+               scanf("%d",&num);
+       
+               if(num%2==0)
+               {
+               suma=suma+num; 
+               }    
+               else 
+               prod=prod*num;
+     
+               printf("\n La suma es : %d",suma);
+               printf("\n El producto es: %d\n",prod);
+               }
+               break; 
+               printf("hola mundo"); 
     }
       
     }while(opc!=4);
