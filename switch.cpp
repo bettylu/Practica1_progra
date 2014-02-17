@@ -14,7 +14,6 @@ int main ()
     printf("Elije una Opcion\n");
     printf("\n1.-Calcula la Hipotenusa\n");
     printf("2.-Serie de 7 con limite de 150\n");
-    printf("3.-Suma y Producto\n");
     printf("4.-Salir");
     scanf("%d",&opc);
     
@@ -43,23 +42,6 @@ int main ()
                m=m+7;
                }
                break;
-          case 3:
-               while(suma<50 && prod<150)
-               {
-               printf("\nDame un entero: ");
-               scanf("%d",&num);
-       
-               if(num%2==0)
-               {
-               suma=suma+num; 
-               }    
-               else 
-               prod=prod*num;
-     
-               printf("\n La suma es : %d",suma);
-               printf("\n El producto es: %d\n",prod);
-               }
-               break;      
     }
       
     }while(opc!=4);
